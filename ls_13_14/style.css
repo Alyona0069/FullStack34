@@ -1,0 +1,28 @@
+
+
+.lol{
+    height: 600px;
+    display: flex;
+    background-color: rgb(4, 0, 255);
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.lol div{
+    width: 25%;
+    height: 300px;
+    
+}
+.red{
+    
+    background-color: rgb(0, 255, 136);
+}
+.green{
+    background-color: rgb(128, 55, 0);
+}
+.blue{
+    background-color: rgb(0, 234, 255);
+}
+.black{
+    background-color: rgb(0, 0, 0);
+}
