@@ -1,0 +1,22 @@
+.lol{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 100px 400px 100px;
+}
+.orang{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    background-color: orange;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.black{
+    background-color: black;
+}

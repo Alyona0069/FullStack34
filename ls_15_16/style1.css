@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+}
+.pink{
+    padding: 0px 250px 40px 250px;
+    background-color: rgb(185, 125, 242);
+}
+.mom{
+    top: 5px;
+    text-align: center;
+}
+.wt{
+    margin-top: 50px;
+    padding: 80px 150px 80px 150px;
+    background-color: white;
+}
+.txt{
+    width: 100%; 
+    background-color: rgb(69, 67, 67);
+}
+/* //////// */
+.menu{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 20px 200px 20px;
+    text-align: center; 
+    background-color: rgb(141, 140, 139);
+}
+.orang1{
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+.rd{
+    
+    background-color: rgb(246, 57, 142);
+}
+.org{
+    
+    background-color: rgb(234, 253, 62);
+}
+.bl{
+    
+    background-color: rgb(161, 230, 251);
+}
+.ylw{
+    
+    background-color: rgb(64, 182, 107);
+}
+.block{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 500px;
+    
+    text-align: center;
+}
+.L{
+    display: grid;
+    background-color: rgb(115, 251, 115);
+}
+.orang{
+    margin: 100px 40px 0 40px;
+    height: 400px;
+    display: grid;
+    background-color: rgb(251, 168, 42);
+}
+.po2{
+    margin-left: 95%;
+}
+.mate{
+    height: 300px;
+    grid-row: start;
+    align-self: end;
+    background-color: rgb(247, 209, 252);
+}
+.yell{
+    height: 300px;
+    grid-row: end;
+    align-self: end;
+    background-color: rgb(244, 236, 22);
+}
+.C{
+    background-color: rgb(12, 236, 252);
+}
+.C1{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.centrl{
+    margin-top: 100px;
+    height: 400px;
+    background-color: rgb(255, 0, 208);
+}
+.centrc{
+    margin-top: 100px;
+    height: 400px;
+    display: grid;
+    grid-template-areas: 'header header'
+                         'navbar cont'
+                         'navbar cont';
+    background-color: rgb(143, 42, 236);
+}
+.pl2{
+    grid-area: header;
+}
+.Ac{
+    height: 300px;
+    align-self: end;
+    grid-area: navbar;
+    background-color: rgb(235, 226, 96);
+}
+.Bc{
+    height: 170px;
+    align-self: end;
+    grid-area: cont;
+    background-color: rgb(9, 193, 22);
+}
+.centrr{
+    margin-top: 100px;
+    height: 400px;
+    background-color: rgb(24, 27, 209);
+}
+.P{
+    display: grid;
+    background-color: rgb(13, 251, 215);
+}
+.pl3{
+    height: 20px;
+}
+.P1{
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.loo{
+    height: 200px;
+    grid-row: start;
+    align-self: end;
+    background-color: rgb(36, 36, 173);
+}
+.cen{
+    height: 250px;
+    grid-row: center;
+    align-self: center;
+    background-color: rgb(253, 253, 20);
+}
+.end{
+    display: grid;
+    height: 200px;
+    grid-row: end;
+    align-self: start;
+    background-color: rgb(243, 35, 243);
+}
+.prg1{
+    height: 30px;
+    grid-column: 2 / 4;
+    margin-top: 50px;
+    background-color: rgb(180, 179, 179);
+}
+.prg2{
+    height: 30px;
+    grid-column: 1 / 3;
+    background-color: rgb(180, 179, 179);
+}
