@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+}
+.registr{
+    display: flex;
+    width: 100%;
+    min-height: 700px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0d4f9;
+}
+.imagee{
+    width: 30%;
+    margin: 20px;
+}
+#formregister{
+    display: flex;
+    flex-direction: column;
+}
+#formregister div{
+    padding: 10px 0;
+}
+.g{
+    display: flex;
+    width: 170px;
+    justify-content: space-between;
+}
+.b p{
+    margin-bottom: 10px;
+}
+.date p{
+    margin-bottom: 10px;
+}
+#sub{
+    background-color: #d879f8;
+    border-radius: 5px;
+}
+a{
+    width: 75px;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 5px;
+    color: black;
+    background-color: #d879f8;
+}
+.subm{
+    display: flex;
+    justify-content: space-between;
+}
+a:hover{
+    background-color: #f8b979;
+}
+#sub:hover{
+    background-color: #f8b979;
+    cursor: pointer;
+}
+
+/* form2 */
+.form2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+    background-color: #f0d4f9;
+}
+h2{
+    font-size: 50px;
+    margin: 20px 0;
+    color: #f8b979;
+}
+.type{
+    display: flex;
+    justify-content: space-between;
+}
+.power{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    width: 400px;
+}
+.brand{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    width: 350px;
+}
+h4{
+    font-size: 15px;
+    margin: 0 10px;
+}
+.sorting{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.text1{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.textimg{
+    width: 200px;
+    height: 150px;
+    margin: 10px 0;
+}
+.text2{
+    display: flex;
+    flex-direction: column;
+}
+.text3{
+    border-style: none;
+    background-color: #f0d4f9;
+}
+.sbt{
+    margin: 25px;
+}
+.stars{
+    text-align: center;
+    margin-bottom: 10px;
+}
+i:hover{
+    cursor: pointer;
+    color: #fbc916;
+}
+.frme{
+    width: 100%;
+    height: 600px;
+    background-color: #f0d4f9;
+}
+
+/* frame */
+.sweet{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.head{
+    width: 100%;
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    background: rgb(190,106,246);
+    background: linear-gradient(90deg, rgba(190,106,246,1) 0%, rgba(29,253,246,1) 50%, rgba(250,29,253,1) 100%);
+}
+h1{
+    /* font-family: 'Griffy', system-ui; */
+    font-family: 'Gorditas', serif;
+    /* opacity: 50%; */
+    color: rgb(246, 217, 246);
+}
+.bar{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    
+}
+h3{
+    font-size: 30px;
+    margin: 0 10px;
+    text-align: center;
+    color: rgb(173, 97, 249);
+}
+.Mane{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+#sorti{
+    text-align: center;
+    color: rgb(173, 97, 249);
+    background-color: rgb(129, 236, 251);;
+}
+.Flavor{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    color: rgb(173, 97, 249);
+}
+.Delivery{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    color: rgb(173, 97, 249);
+}
+.sbt2{
+    text-align: center;
+    margin: 10px 0;
+}
+#sbt3{
+    border-radius: 7px;
+    color: rgb(173, 97, 249);;
+    background-color: rgb(129, 236, 251);
+    border-color: rgb(173, 97, 249);;
+}
+#sbt3:hover{
+    cursor: pointer;
+    background-color: rgb(173, 97, 249);
+    color: rgb(45, 236, 242);
+}
+
+.contentsd{
+    display: flex;
+    background: rgb(247,177,254);
+    background: radial-gradient(circle, rgba(247,177,254,1) 0%, rgba(158,255,251,1) 100%);
+}
+.sweetimg{
+    width: 80%;
+    height: 600px;
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    /* margin: 30px 100px; */
+    margin-left: 60px;
+}
+.sweettxt{
+    margin: 15px 25px;
+    text-align: center;
+}
+.txtimg{
+    width: 200px;
+    height: 200px;
+    margin: 10px 0;
+}
+.txt3{
+    border-style: none;
+    text-align: center;
+    color: rgb(92, 3, 116);
+    background: radial-gradient(circle, rgba(247,177,254,1) 0%, rgba(158,255,251,1) 100%);
+}
