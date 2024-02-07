@@ -1,0 +1,98 @@
+
+*{
+    margin: 0;
+}
+
+h1{
+    margin-left: 350px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 100px;
+    color: rgb(59, 210, 215);
+}
+.tabl{
+    font-size: 30px;
+    background: rgb(250, 201, 236, 0.3);
+    border-radius: 20px;
+}
+h2{
+    text-align: center;
+    font-size: 70px;
+    color: rgb(59, 210, 215);
+}
+.tabl2{
+    font-size: 30px;
+    background: rgb(250, 201, 236, 0.3);
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+#end{
+    text-align: left;
+    padding-left: 100px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.name, .name1 {
+    background-color: aquamarine;
+}
+.t2 h2 {
+    margin: 50px 0 30px 0;
+}
+h2#menu {
+    margin: 30px;
+    font-size: 100px;
+    color: purple;
+}
+.tabl3{
+    font-size: 30px;
+    background: rgb(250, 201, 236, 0.3);
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+.tabl, .tabl2, .tabl3{
+    margin-left: 300px;
+}
+
+th[colspan] {
+    font-size: 40px;
+    color: blueviolet;
+}
+th[rowspan="3"] {
+    background-color: rgba(237, 147, 239, 0.3);
+    border-radius: 15px;
+}
+h2 + p{
+    text-align: center;
+    font-size: 30px;
+    color: purple;
+    margin-bottom: 20px;
+}
+/* .tabl3 > .text{
+    color: blueviolet;;
+} */
+div > h2 {
+color: purple;
+}
+i{
+    color: purple;  
+}
+h1 ~ h2 {
+    font-size: 50px;
+    margin-bottom: 15px;
+    color: rgb(59, 210, 215);
+}
+a:hover{
+    color: rgb(153, 246, 246);
+}
+.text:active {
+    color: rgb(153, 246, 246);
+}
+/* .t2:not(div) {
+    font-size: 20px;
+} когда у разных элементов один 'класс' */
+
+.tabl th:nth-child(3n+1){
+    color: rgb(38, 106, 106);
+}
