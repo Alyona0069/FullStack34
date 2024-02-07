@@ -1,0 +1,80 @@
+/* ctri/ */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hawaii {
+    height: 350px;
+    background-image: url(./media/img/hawaii.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1 {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 100px;
+    font-size: 150px;
+    /* color: rgba(0, 0, 0, 0.8); */
+    color: rgb(24, 120, 131, 0.9);
+}
+
+h2 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 50px;
+    color: rgb(24, 120, 131);
+}
+
+h3 {
+    margin: 5px 20px;
+    text-indent: 30px;
+    color: rgb(24, 120, 131);
+}
+
+.text {
+    text-align: center;
+}
+
+hr {
+    width: 110px;
+    margin: 0 45%;
+}
+
+p {
+    margin: 0 20px;
+    text-indent: 30px;
+    color: rgb(24, 120, 131);
+}
+
+.foot {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(24, 120, 131);
+    font-size: 20px;
+}
+
+.img {
+    text-align: center;
+}
+
+h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: rgb(24, 120, 131);
+}
+
+.audi {
+    text-align: center;
+}
+
+.vid {
+    text-align: center;
+}
