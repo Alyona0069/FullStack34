@@ -1,0 +1,10 @@
+div{
+    border: 2px solid;
+    border-color: rgb(116, 244, 244);
+    border-radius: 25px;
+}
+hr{
+    border: 1px solid;
+    border-color: rgb(168, 103, 228);
+    border-radius: 15px;
+}
